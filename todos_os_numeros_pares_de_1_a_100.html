@@ -1,0 +1,25 @@
+<meta charset="UTF-8">
+<script>
+
+    function pulaLinha() {
+
+        document.write("<br>");
+    }
+
+    function mostra(frase) {
+
+        document.write(frase);
+        pulaLinha();
+    }
+
+var numeroPar = 0;
+var numeroLimite = parseInt(prompt(" Até qual numero deseja pesquisar ?"));
+
+while(numeroPar <= numeroLimite) {
+mostra("Teve copa em " + numeroPar);
+numeroPar = numeroPar + 2;
+}
+
+mostra("FIM");
+
+</script>

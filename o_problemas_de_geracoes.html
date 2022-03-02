@@ -1,0 +1,22 @@
+<meta charset="UTF-8">
+
+<script>
+function pulaLinha() {
+	document.write("<br>");
+
+}
+
+function mostra(frase) {
+	document.write(frase)
+	pulaLinha() ;
+}
+
+var chegadaDosPortugueses = 1500;
+var mediaDeIdade = 28;
+var anoAtual = 2021;
+var quantasGeracoes = (anoAtual - chegadaDosPortugueses)/mediaDeIdade;
+
+mostra("Os Portugues já estão no Brasil a " + Math.trunc(quantasGeracoes) + " gerações.")
+
+
+</script>
